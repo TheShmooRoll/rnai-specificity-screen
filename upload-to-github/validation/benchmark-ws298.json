@@ -1,0 +1,1820 @@
+{
+  "reference": "WormBase WS298",
+  "seed": 20261113,
+  "samplingFrame": "Protein-coding loci with a mature RNA at least 500 bases long",
+  "eligible": 17657,
+  "count": 200,
+  "ungappedChanges": 14,
+  "indelChanges": 2,
+  "ungappedRate": 0.07,
+  "indelRate": 0.01,
+  "extraUngapped": 10,
+  "extraGapped": 0,
+  "meanDesignMilliseconds": [
+    433.4148019249993,
+    676.7763625750009,
+    683.9324055100043
+  ],
+  "loci": [
+    {
+      "gene": "lact-9",
+      "id": "WBGene00012890",
+      "exact": "NM_001047568.4/25/1224",
+      "ungapped": "NM_001047568.4/25/1224",
+      "gapped": "NM_001047568.4/25/1224",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "math-8",
+      "id": "WBGene00015837",
+      "exact": "NM_001377703.1/371/870",
+      "ungapped": "NM_001377703.1/368/867",
+      "gapped": "NM_001377703.1/368/867",
+      "addedUngapped": 2,
+      "addedGapped": 0
+    },
+    {
+      "gene": "lron-7",
+      "id": "WBGene00019351",
+      "exact": "NM_076826.9/338/1537",
+      "ungapped": "NM_076826.9/338/1537",
+      "gapped": "NM_076826.9/338/1537",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "ift-81",
+      "id": "WBGene00017973",
+      "exact": "NM_076499.9/1/1168",
+      "ungapped": "NM_076499.9/1/1168",
+      "gapped": "NM_076499.9/1/1168",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "ncs-2",
+      "id": "WBGene00003564",
+      "exact": "NM_001381187.1/1/1179",
+      "ungapped": "NM_001381187.1/1/1179",
+      "gapped": "NM_001381187.1/1/1179",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "ZK643.6",
+      "id": "WBGene00014037",
+      "exact": "NM_066580.4/1/848",
+      "ungapped": "NM_066580.4/1/848",
+      "gapped": "NM_066580.4/1/848",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "fbxa-29",
+      "id": "WBGene00013836",
+      "exact": "NM_001027805.3/172/711",
+      "ungapped": "NM_001027805.3/172/711",
+      "gapped": "NM_001027805.3/172/711",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F47G9.4",
+      "id": "WBGene00009831",
+      "exact": "NM_073475.4/106/1305",
+      "ungapped": "NM_073475.4/106/1305",
+      "gapped": "NM_073475.4/106/1305",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F41G3.5",
+      "id": "WBGene00018301",
+      "exact": "NM_062977.3/1/1093",
+      "ungapped": "NM_062977.3/1/1093",
+      "gapped": "NM_062977.3/1/1093",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "abcf-2",
+      "id": "WBGene00012097",
+      "exact": "NM_067378.5/711/1910",
+      "ungapped": "NM_067378.5/711/1910",
+      "gapped": "NM_067378.5/711/1910",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "hot-3",
+      "id": "WBGene00001988",
+      "exact": "NM_171050.3/1/709",
+      "ungapped": "NM_171050.3/1/709",
+      "gapped": "NM_171050.3/1/709",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "lipl-4",
+      "id": "WBGene00019376",
+      "exact": "NM_072261.5/101/1300",
+      "ungapped": "NM_072261.5/101/1300",
+      "gapped": "NM_072261.5/101/1300",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "mul-1",
+      "id": "WBGene00018646",
+      "exact": "NM_068086.6/1/871",
+      "ungapped": "NM_068086.6/1/871",
+      "gapped": "NM_068086.6/1/871",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F32D8.12",
+      "id": "WBGene00009334",
+      "exact": "NM_001392598.1/1/1074",
+      "ungapped": "NM_001392598.1/1/1074",
+      "gapped": "NM_001392598.1/1/1074",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "rom-3",
+      "id": "WBGene00004402",
+      "exact": "NM_070612.2/1/989",
+      "ungapped": "NM_070612.2/1/989",
+      "gapped": "NM_070612.2/1/989",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "mfsd-11",
+      "id": "WBGene00010925",
+      "exact": "NM_077632.3/1/1191",
+      "ungapped": "NM_077632.3/1/1191",
+      "gapped": "NM_077632.3/1/1191",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "mage-1",
+      "id": "WBGene00018230",
+      "exact": "NM_058617.5/257/853",
+      "ungapped": "NM_058617.5/303/853",
+      "gapped": "NM_058617.5/303/853",
+      "addedUngapped": 1,
+      "addedGapped": 0
+    },
+    {
+      "gene": "nas-5",
+      "id": "WBGene00003524",
+      "exact": "NM_060215.3/1/1036",
+      "ungapped": "NM_060215.3/1/1036",
+      "gapped": "NM_060215.3/1/1036",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "twk-35",
+      "id": "WBGene00006687",
+      "exact": "NM_075630.6/1/1200",
+      "ungapped": "NM_075630.6/1/1200",
+      "gapped": "NM_075630.6/1/1200",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "copa-1",
+      "id": "WBGene00022119",
+      "exact": "NM_058668.6/60/1259",
+      "ungapped": "NM_058668.6/60/1259",
+      "gapped": "NM_058668.6/60/1259",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "adal-1",
+      "id": "WBGene00016632",
+      "exact": "NM_182155.5/1/1200",
+      "ungapped": "NM_182155.5/1/1200",
+      "gapped": "NM_182155.5/1/1200",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "dhhc-2",
+      "id": "WBGene00012948",
+      "exact": "NM_060606.6/131/1330",
+      "ungapped": "NM_060606.6/131/1330",
+      "gapped": "NM_060606.6/131/1330",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "srbc-63",
+      "id": "WBGene00011541",
+      "exact": "NM_074431.1/1/840",
+      "ungapped": "NM_074431.1/1/840",
+      "gapped": "NM_074431.1/1/840",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "trpa-2",
+      "id": "WBGene00010873",
+      "exact": "NM_059630.8/10/1209",
+      "ungapped": "NM_059630.8/10/1209",
+      "gapped": "NM_059630.8/10/1209",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "M60.7",
+      "id": "WBGene00019782",
+      "exact": "NM_001373386.2/473/1672",
+      "ungapped": "NM_001373386.2/473/1672",
+      "gapped": "NM_001373386.2/473/1672",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "prdm-14",
+      "id": "WBGene00018567",
+      "exact": "NM_001373407.1/1/612",
+      "ungapped": "NM_001373407.1/1/612",
+      "gapped": "NM_001373407.1/1/612",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "Y73B3A.11",
+      "id": "WBGene00022213",
+      "exact": "NM_001374932.2/323/822",
+      "ungapped": "NM_001374932.2/342/841",
+      "gapped": "NM_001374932.2/342/841",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "K08C9.2",
+      "id": "WBGene00010651",
+      "exact": "NM_060534.7/1/842",
+      "ungapped": "NM_060534.7/1/842",
+      "gapped": "NM_060534.7/1/842",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "ekl-6",
+      "id": "WBGene00011806",
+      "exact": "NM_066833.7/19/1218",
+      "ungapped": "NM_066833.7/19/1218",
+      "gapped": "NM_066833.7/19/1218",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F58F9.3",
+      "id": "WBGene00019057",
+      "exact": "NM_001028071.5/1/1038",
+      "ungapped": "NM_001028071.5/1/1038",
+      "gapped": "NM_001028071.5/1/1038",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "pfd-3",
+      "id": "WBGene00006889",
+      "exact": "NM_060827.7/1/898",
+      "ungapped": "NM_060827.7/1/898",
+      "gapped": "NM_060827.7/1/898",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "sel-7",
+      "id": "WBGene00004764",
+      "exact": "NM_077991.7/1/1200",
+      "ungapped": "NM_077991.7/1/1200",
+      "gapped": "NM_077991.7/1/1200",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "col-17",
+      "id": "WBGene00000606",
+      "exact": "NM_062477.9/1/500",
+      "ungapped": "NM_062477.9/1/500",
+      "gapped": "NM_062477.9/1/500",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "gapr-1",
+      "id": "WBGene00305050",
+      "exact": "NM_001377630.1/1/500",
+      "ungapped": "NM_001377630.1/1/500",
+      "gapped": "NM_001377630.1/1/500",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "C26C6.8",
+      "id": "WBGene00007742",
+      "exact": "NM_001374919.2/1/893",
+      "ungapped": "NM_001374919.2/1/893",
+      "gapped": "NM_001374919.2/1/893",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F49E2.5",
+      "id": "WBGene00009888",
+      "exact": "NM_001381055.1/1/1200",
+      "ungapped": "NM_001381055.1/1/1200",
+      "gapped": "NM_001381055.1/1/1200",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "B0041.5",
+      "id": "WBGene00015009",
+      "exact": "NM_001361740.4/28/1227",
+      "ungapped": "NM_001361740.4/28/1227",
+      "gapped": "NM_001361740.4/28/1227",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "R144.3",
+      "id": "WBGene00020093",
+      "exact": "NM_001382857.2/1/843",
+      "ungapped": "NM_001382857.2/1/843",
+      "gapped": "NM_001382857.2/1/843",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "Y66D12A.1",
+      "id": "WBGene00013427",
+      "exact": "NM_067100.2/26/772",
+      "ungapped": "NM_067100.2/26/772",
+      "gapped": "NM_067100.2/26/772",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "hlh-13",
+      "id": "WBGene00001957",
+      "exact": "NM_076324.5/1/632",
+      "ungapped": "NM_076324.5/1/632",
+      "gapped": "NM_076324.5/1/632",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "T25E4.2",
+      "id": "WBGene00020804",
+      "exact": "NM_001377802.1/1/1200",
+      "ungapped": "NM_001377802.1/1/1200",
+      "gapped": "NM_001377802.1/1/1200",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "srx-87",
+      "id": "WBGene00005978",
+      "exact": "NM_001028726.1/142/966",
+      "ungapped": "NM_001028726.1/142/966",
+      "gapped": "NM_001028726.1/142/966",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "gtnt-5",
+      "id": "WBGene00015722",
+      "exact": "NM_072448.5/1/894",
+      "ungapped": "NM_072448.5/1/626",
+      "gapped": "NM_072448.5/1/626",
+      "addedUngapped": 1,
+      "addedGapped": 0
+    },
+    {
+      "gene": "dnc-6",
+      "id": "WBGene00021827",
+      "exact": "NM_058715.9/1/669",
+      "ungapped": "NM_058715.9/1/669",
+      "gapped": "NM_058715.9/1/669",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "R07A4.4",
+      "id": "WBGene00011075",
+      "exact": "NM_077396.8/1/1026",
+      "ungapped": "NM_077396.8/1/1026",
+      "gapped": "NM_077396.8/1/1026",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F31E3.2",
+      "id": "WBGene00017950",
+      "exact": "NM_066121.6/125/1324",
+      "ungapped": "NM_066121.6/125/1324",
+      "gapped": "NM_066121.6/125/1324",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "srd-42",
+      "id": "WBGene00005120",
+      "exact": "NM_077813.2/319/873",
+      "ungapped": "NM_077813.2/319/873",
+      "gapped": "NM_077813.2/319/873",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "bpnt-1",
+      "id": "WBGene00044063",
+      "exact": "NM_062379.7/1/1119",
+      "ungapped": "NM_062379.7/1/1119",
+      "gapped": "NM_062379.7/1/1119",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "ngn-1",
+      "id": "WBGene00003595",
+      "exact": "NM_067835.5/1/730",
+      "ungapped": "NM_067835.5/1/730",
+      "gapped": "NM_067835.5/1/730",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "scp-1",
+      "id": "WBGene00004744",
+      "exact": "NM_001383916.2/225/1424",
+      "ungapped": "NM_001383916.2/225/1424",
+      "gapped": "NM_001383916.2/225/1424",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "grl-16",
+      "id": "WBGene00001725",
+      "exact": "NM_182075.3/244/982",
+      "ungapped": "NM_182075.3/244/982",
+      "gapped": "NM_182075.3/244/982",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "C14A11.2",
+      "id": "WBGene00015748",
+      "exact": "NM_076086.6/1/900",
+      "ungapped": "NM_076086.6/1/900",
+      "gapped": "NM_076086.6/1/900",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "zipt-16",
+      "id": "WBGene00006486",
+      "exact": "NM_001383406.3/109/1308",
+      "ungapped": "NM_001383406.3/109/1308",
+      "gapped": "NM_001383406.3/109/1308",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "spch-1",
+      "id": "WBGene00007307",
+      "exact": "NM_069436.7/41/558",
+      "ungapped": "NM_069436.7/46/553",
+      "gapped": "NM_069436.7/46/552",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "str-190",
+      "id": "WBGene00006231",
+      "exact": "NM_072522.5/1/1029",
+      "ungapped": "NM_072522.5/1/1029",
+      "gapped": "NM_072522.5/1/1029",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "C14E2.6",
+      "id": "WBGene00015775",
+      "exact": "NM_075935.2/1/984",
+      "ungapped": "NM_075935.2/1/984",
+      "gapped": "NM_075935.2/1/984",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "tbb-4",
+      "id": "WBGene00006538",
+      "exact": "NM_077184.8/1/637",
+      "ungapped": "NM_077184.8/1/637",
+      "gapped": "NM_077184.8/1/637",
+      "addedUngapped": 1,
+      "addedGapped": 0
+    },
+    {
+      "gene": "eri-12",
+      "id": "WBGene00007091",
+      "exact": "NM_001383215.2/11/1210",
+      "ungapped": "NM_001383215.2/11/1210",
+      "gapped": "NM_001383215.2/11/1210",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "C31H1.5",
+      "id": "WBGene00016288",
+      "exact": "NM_068463.4/1/1041",
+      "ungapped": "NM_068463.4/1/1041",
+      "gapped": "NM_068463.4/1/1041",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "W04G3.5",
+      "id": "WBGene00012258",
+      "exact": "NM_001270202.5/1/1096",
+      "ungapped": "NM_001270202.5/1/1096",
+      "gapped": "NM_001270202.5/1/1096",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "damt-1",
+      "id": "WBGene00015939",
+      "exact": "NM_062726.3/1/1124",
+      "ungapped": "NM_062726.3/1/1124",
+      "gapped": "NM_062726.3/1/1124",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "mks-1",
+      "id": "WBGene00020100",
+      "exact": "NM_001381800.1/580/1779",
+      "ungapped": "NM_001381800.1/580/1779",
+      "gapped": "NM_001381800.1/580/1779",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "hlh-3",
+      "id": "WBGene00001950",
+      "exact": "NM_063537.9/1/810",
+      "ungapped": "NM_063537.9/1/810",
+      "gapped": "NM_063537.9/1/810",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "eat-20",
+      "id": "WBGene00001148",
+      "exact": "NM_001383685.2/103/1302",
+      "ungapped": "NM_001383685.2/103/1302",
+      "gapped": "NM_001383685.2/103/1302",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "mrpl-16",
+      "id": "WBGene00011412",
+      "exact": "NM_065564.8/1/826",
+      "ungapped": "NM_065564.8/1/826",
+      "gapped": "NM_065564.8/1/826",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "clec-7",
+      "id": "WBGene00017364",
+      "exact": "NM_072464.5/24/1223",
+      "ungapped": "NM_072464.5/24/1223",
+      "gapped": "NM_072464.5/24/1223",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "cogc-3",
+      "id": "WBGene00022121",
+      "exact": "NM_001026635.6/289/1488",
+      "ungapped": "NM_001026635.6/289/1488",
+      "gapped": "NM_001026635.6/289/1488",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "W02H5.19",
+      "id": "WBGene00302982",
+      "exact": "NM_001392487.1/1/500",
+      "ungapped": "NM_001392487.1/1/500",
+      "gapped": "NM_001392487.1/1/500",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "marb-1",
+      "id": "WBGene00009436",
+      "exact": "NM_069914.10/1/715",
+      "ungapped": "NM_069914.10/1/715",
+      "gapped": "NM_069914.10/1/715",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "syf-1",
+      "id": "WBGene00016837",
+      "exact": "NM_058849.10/4/1203",
+      "ungapped": "NM_058849.10/4/1203",
+      "gapped": "NM_058849.10/4/1203",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "npa-1",
+      "id": "WBGene00003786",
+      "exact": "NM_072394.8/859/2058",
+      "ungapped": "NM_072394.8/859/2058",
+      "gapped": "NM_072394.8/859/2058",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "plin-1",
+      "id": "WBGene00007024",
+      "exact": "NM_001026475.5/1/1200",
+      "ungapped": "NM_001026475.5/1/1200",
+      "gapped": "NM_001026475.5/1/1200",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "C27H5.2",
+      "id": "WBGene00016172",
+      "exact": "NM_182243.5/637/1836",
+      "ungapped": "NM_182243.5/637/1836",
+      "gapped": "NM_182243.5/637/1836",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "atp-2",
+      "id": "WBGene00000229",
+      "exact": "NM_065710.8/12/1211",
+      "ungapped": "NM_065710.8/12/1211",
+      "gapped": "NM_065710.8/12/1211",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "ubc-6",
+      "id": "WBGene00006703",
+      "exact": "NM_001047290.5/1/1200",
+      "ungapped": "NM_001047290.5/1/1200",
+      "gapped": "NM_001047290.5/1/1200",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "cup-4",
+      "id": "WBGene00000845",
+      "exact": "NM_066309.6/1/1028",
+      "ungapped": "NM_066309.6/1/1028",
+      "gapped": "NM_066309.6/1/1028",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F56D3.1",
+      "id": "WBGene00018969",
+      "exact": "NM_062326.7/6/1205",
+      "ungapped": "NM_062326.7/6/1205",
+      "gapped": "NM_062326.7/6/1205",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "acr-25",
+      "id": "WBGene00043066",
+      "exact": "NM_001028399.4/48/1247",
+      "ungapped": "NM_001028399.4/48/1247",
+      "gapped": "NM_001028399.4/48/1247",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "T06G6.5",
+      "id": "WBGene00011547",
+      "exact": "NM_060823.4/1/500",
+      "ungapped": "NM_060823.4/1/500",
+      "gapped": "NM_060823.4/1/500",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "H10D18.1",
+      "id": "WBGene00019177",
+      "exact": "NM_071657.4/1/711",
+      "ungapped": "NM_071657.4/1/711",
+      "gapped": "NM_071657.4/1/711",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "ckb-1",
+      "id": "WBGene00000511",
+      "exact": "NM_065478.4/857/1360",
+      "ungapped": "NM_065478.4/857/1360",
+      "gapped": "NM_065478.4/857/1360",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "T05F1.9",
+      "id": "WBGene00011494",
+      "exact": "NM_060161.2/1/1158",
+      "ungapped": "NM_060161.2/1/1158",
+      "gapped": "NM_060161.2/1/1158",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "sma-4",
+      "id": "WBGene00004858",
+      "exact": "NM_001047399.6/544/1743",
+      "ungapped": "NM_001047399.6/544/1743",
+      "gapped": "NM_001047399.6/544/1743",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "C36A4.4",
+      "id": "WBGene00007965",
+      "exact": "NM_065376.7/1206/1705",
+      "ungapped": "NM_065376.7/1206/1705",
+      "gapped": "NM_065376.7/1206/1705",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "try-16",
+      "id": "WBGene00009416",
+      "exact": "NM_060586.4/84/943",
+      "ungapped": "NM_060586.4/88/943",
+      "gapped": "NM_060586.4/88/943",
+      "addedUngapped": 1,
+      "addedGapped": 0
+    },
+    {
+      "gene": "hil-7",
+      "id": "WBGene00001858",
+      "exact": "NM_001026112.5/1/516",
+      "ungapped": "NM_001026112.5/1/516",
+      "gapped": "NM_001026112.5/1/516",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F13A7.14",
+      "id": "WBGene00045357",
+      "exact": "NM_001392681.2/473/972",
+      "ungapped": "NM_001392681.2/473/972",
+      "gapped": "NM_001392681.2/473/972",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "elc-2",
+      "id": "WBGene00001237",
+      "exact": "NM_001374969.2/1/571",
+      "ungapped": "NM_001374969.2/1/571",
+      "gapped": "NM_001374969.2/1/571",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "H01M10.2",
+      "id": "WBGene00019144",
+      "exact": "NM_076066.4/1/666",
+      "ungapped": "NM_076066.4/1/666",
+      "gapped": "NM_076066.4/1/666",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F36H2.6",
+      "id": "WBGene00194653",
+      "exact": "NM_001264107.3/1/562",
+      "ungapped": "NM_001264107.3/1/562",
+      "gapped": "NM_001264107.3/1/562",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "Y50D4C.6",
+      "id": "WBGene00021750",
+      "exact": "NM_171435.6/376/899",
+      "ungapped": "NM_171435.6/376/899",
+      "gapped": "NM_171435.6/376/899",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "Y57G11B.5",
+      "id": "WBGene00013297",
+      "exact": "NM_070368.4/1/724",
+      "ungapped": "NM_070368.4/1/724",
+      "gapped": "NM_070368.4/1/724",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "snt-2",
+      "id": "WBGene00004922",
+      "exact": "NM_064860.6/142/1341",
+      "ungapped": "NM_064860.6/142/1341",
+      "gapped": "NM_064860.6/142/1341",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F36D4.5",
+      "id": "WBGene00018090",
+      "exact": "NM_171506.2/107/1306",
+      "ungapped": "NM_171506.2/107/1306",
+      "gapped": "NM_171506.2/107/1306",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F52E4.5",
+      "id": "WBGene00018702",
+      "exact": "NM_076126.5/1/1158",
+      "ungapped": "NM_076126.5/1/1158",
+      "gapped": "NM_076126.5/1/1158",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "Y52B11A.19",
+      "id": "WBGene00206530",
+      "exact": "NM_001264628.4/1/500",
+      "ungapped": "NM_001264628.4/1/500",
+      "gapped": "NM_001264628.4/1/500",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "txt-5",
+      "id": "WBGene00016499",
+      "exact": "NM_072618.7/23/1164",
+      "ungapped": "NM_072618.7/23/1164",
+      "gapped": "NM_072618.7/23/1164",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "str-230",
+      "id": "WBGene00006261",
+      "exact": "NM_074117.4/1/1067",
+      "ungapped": "NM_074117.4/1/1067",
+      "gapped": "NM_074117.4/1/1067",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "bath-21",
+      "id": "WBGene00019138",
+      "exact": "NM_061754.3/40/632",
+      "ungapped": "NM_061754.3/40/632",
+      "gapped": "NM_061754.3/40/632",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "K07A1.15",
+      "id": "WBGene00010619",
+      "exact": "NM_001026380.6/59/558",
+      "ungapped": "NM_001026380.6/116/615",
+      "gapped": "NM_001026380.6/59/558",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "cdh-10",
+      "id": "WBGene00000402",
+      "exact": "NM_067803.6/5/1204",
+      "ungapped": "NM_067803.6/5/1204",
+      "gapped": "NM_067803.6/5/1204",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "exl-1",
+      "id": "WBGene00001371",
+      "exact": "NM_064599.5/1/765",
+      "ungapped": "NM_064599.5/1/765",
+      "gapped": "NM_064599.5/1/765",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "C47E8.3",
+      "id": "WBGene00008142",
+      "exact": "NM_074223.4/1/843",
+      "ungapped": "NM_074223.4/1/843",
+      "gapped": "NM_074223.4/1/843",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "C15C6.1",
+      "id": "WBGene00007600",
+      "exact": "NM_060678.7/1/837",
+      "ungapped": "NM_060678.7/1/837",
+      "gapped": "NM_060678.7/1/837",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "ept-1",
+      "id": "WBGene00018797",
+      "exact": "NM_059053.7/1/1200",
+      "ungapped": "NM_059053.7/1/1200",
+      "gapped": "NM_059053.7/1/1200",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "mrps-33",
+      "id": "WBGene00009013",
+      "exact": "NM_069104.3/1/506",
+      "ungapped": "NM_069104.3/1/506",
+      "gapped": "NM_069104.3/1/506",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "spds-1",
+      "id": "WBGene00012909",
+      "exact": "NM_001381634.1/1/1101",
+      "ungapped": "NM_001381634.1/1/1101",
+      "gapped": "NM_001381634.1/1/1101",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "sre-2",
+      "id": "WBGene00005150",
+      "exact": "NM_063297.8/15/1135",
+      "ungapped": "NM_063297.8/15/1135",
+      "gapped": "NM_063297.8/15/1135",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "irld-47",
+      "id": "WBGene00011458",
+      "exact": "NM_001330953.1/1/1200",
+      "ungapped": "NM_001330953.1/1/1200",
+      "gapped": "NM_001330953.1/1/1200",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "R10H10.3",
+      "id": "WBGene00011222",
+      "exact": "NM_069517.5/1/867",
+      "ungapped": "NM_069517.5/1/867",
+      "gapped": "NM_069517.5/1/867",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "sru-17",
+      "id": "WBGene00005680",
+      "exact": "NM_069993.2/148/668",
+      "ungapped": "NM_069993.2/158/661",
+      "gapped": "NM_069993.2/158/661",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "tsp-13",
+      "id": "WBGene00006639",
+      "exact": "NM_171602.3/1/1025",
+      "ungapped": "NM_171602.3/1/1025",
+      "gapped": "NM_171602.3/1/1025",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "xol-1",
+      "id": "WBGene00006962",
+      "exact": "NM_001029247.3/15/1214",
+      "ungapped": "NM_001029247.3/15/1214",
+      "gapped": "NM_001029247.3/15/1214",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "pitr-2",
+      "id": "WBGene00015054",
+      "exact": "NM_001356722.1/538/1430",
+      "ungapped": "NM_001356722.1/538/1430",
+      "gapped": "NM_001356722.1/538/1430",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "ubc-13",
+      "id": "WBGene00006708",
+      "exact": "NM_067871.7/1/889",
+      "ungapped": "NM_067871.7/1/889",
+      "gapped": "NM_067871.7/1/889",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "sir-2.1",
+      "id": "WBGene00004800",
+      "exact": "NM_001268555.5/1/679",
+      "ungapped": "NM_001268555.5/1/679",
+      "gapped": "NM_001268555.5/1/679",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "shc-3",
+      "id": "WBGene00010774",
+      "exact": "NM_077894.7/1/939",
+      "ungapped": "NM_077894.7/1/939",
+      "gapped": "NM_077894.7/1/939",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "C37E2.2",
+      "id": "WBGene00007994",
+      "exact": "NM_001029277.3/1/825",
+      "ungapped": "NM_001029277.3/1/825",
+      "gapped": "NM_001029277.3/1/825",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "nasp-2",
+      "id": "WBGene00008218",
+      "exact": "NM_073897.8/16/1215",
+      "ungapped": "NM_073897.8/16/1215",
+      "gapped": "NM_073897.8/16/1215",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "srh-248",
+      "id": "WBGene00005454",
+      "exact": "NM_071402.1/451/978",
+      "ungapped": "NM_071402.1/327/826",
+      "gapped": "NM_071402.1/327/826",
+      "addedUngapped": 1,
+      "addedGapped": 0
+    },
+    {
+      "gene": "Y37E3.17",
+      "id": "WBGene00021355",
+      "exact": "NM_001026574.4/183/1382",
+      "ungapped": "NM_001026574.4/183/1382",
+      "gapped": "NM_001026574.4/183/1382",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "ndub-11",
+      "id": "WBGene00018361",
+      "exact": "NM_001028030.6/1/691",
+      "ungapped": "NM_001028030.6/1/691",
+      "gapped": "NM_001028030.6/1/691",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "mab-31",
+      "id": "WBGene00021834",
+      "exact": "NM_058728.8/13/1212",
+      "ungapped": "NM_058728.8/13/1212",
+      "gapped": "NM_058728.8/13/1212",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F26D10.13",
+      "id": "WBGene00044244",
+      "exact": "NM_001027975.4/1/502",
+      "ungapped": "NM_001027975.4/1/502",
+      "gapped": "NM_001027975.4/1/502",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "rpl-19",
+      "id": "WBGene00004431",
+      "exact": "NM_059207.9/1/678",
+      "ungapped": "NM_059207.9/1/678",
+      "gapped": "NM_059207.9/1/678",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "aex-6",
+      "id": "WBGene00000089",
+      "exact": "NM_060975.7/1/1018",
+      "ungapped": "NM_060975.7/1/1018",
+      "gapped": "NM_060975.7/1/1018",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "ucr-2.1",
+      "id": "WBGene00012158",
+      "exact": "NM_001392857.2/40/1239",
+      "ungapped": "NM_001392857.2/40/1239",
+      "gapped": "NM_001392857.2/40/1239",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "kxd-1",
+      "id": "WBGene00015742",
+      "exact": "NM_072430.4/1/500",
+      "ungapped": "NM_072430.4/1/500",
+      "gapped": "NM_072430.4/1/500",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "nhr-124",
+      "id": "WBGene00003714",
+      "exact": "NM_071669.7/101/1177",
+      "ungapped": "NM_071669.7/101/1177",
+      "gapped": "NM_071669.7/101/1177",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "crld-1",
+      "id": "WBGene00008624",
+      "exact": "NM_001392424.1/317/1105",
+      "ungapped": "NM_001392424.1/317/1105",
+      "gapped": "NM_001392424.1/317/1105",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "daf-41",
+      "id": "WBGene00022599",
+      "exact": "NM_065725.5/1/721",
+      "ungapped": "NM_065725.5/1/721",
+      "gapped": "NM_065725.5/1/721",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "B0403.6",
+      "id": "WBGene00043982",
+      "exact": "NM_001029152.6/1/940",
+      "ungapped": "NM_001029152.6/1/940",
+      "gapped": "NM_001029152.6/1/940",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "fbxa-76",
+      "id": "WBGene00044675",
+      "exact": "NM_001381727.2/1/645",
+      "ungapped": "NM_001381727.2/27/645",
+      "gapped": "NM_001381727.2/27/645",
+      "addedUngapped": 1,
+      "addedGapped": 0
+    },
+    {
+      "gene": "C44H4.8",
+      "id": "WBGene00008096",
+      "exact": "NM_171802.6/1/1045",
+      "ungapped": "NM_171802.6/1/1045",
+      "gapped": "NM_171802.6/1/1045",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "Y48G1A.1",
+      "id": "WBGene00021657",
+      "exact": "NM_058321.5/797/1996",
+      "ungapped": "NM_058321.5/797/1996",
+      "gapped": "NM_058321.5/797/1996",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "vps-18",
+      "id": "WBGene00021058",
+      "exact": "NM_062387.7/2/1201",
+      "ungapped": "NM_062387.7/2/1201",
+      "gapped": "NM_062387.7/2/1201",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "ztf-7",
+      "id": "WBGene00009772",
+      "exact": "NM_073125.7/65/1264",
+      "ungapped": "NM_073125.7/65/1264",
+      "gapped": "NM_073125.7/65/1264",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "nhr-156",
+      "id": "WBGene00015897",
+      "exact": "NM_001322545.3/136/1261",
+      "ungapped": "NM_001322545.3/136/1261",
+      "gapped": "NM_001322545.3/136/1261",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "mob-2",
+      "id": "WBGene00008601",
+      "exact": "NM_077785.5/1/1191",
+      "ungapped": "NM_077785.5/1/1191",
+      "gapped": "NM_077785.5/1/1191",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F14D7.8",
+      "id": "WBGene00008795",
+      "exact": "NM_074145.4/1/856",
+      "ungapped": "NM_074145.4/1/856",
+      "gapped": "NM_074145.4/1/856",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "nol-14",
+      "id": "WBGene00021660",
+      "exact": "NM_001364065.4/6/1205",
+      "ungapped": "NM_001364065.4/6/1205",
+      "gapped": "NM_001364065.4/6/1205",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "col-126",
+      "id": "WBGene00000700",
+      "exact": "NM_069714.2/452/951",
+      "ungapped": "NM_069714.2/452/951",
+      "gapped": "NM_069714.2/452/951",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F58E6.6",
+      "id": "WBGene00010255",
+      "exact": "NM_073114.2/1/1077",
+      "ungapped": "NM_073114.2/1/1077",
+      "gapped": "NM_073114.2/1/1077",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "ZC15.10",
+      "id": "WBGene00045050",
+      "exact": "NM_001392709.1/1/618",
+      "ungapped": "NM_001392709.1/1/618",
+      "gapped": "NM_001392709.1/1/618",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "let-767",
+      "id": "WBGene00002891",
+      "exact": "NM_001306677.4/1/1103",
+      "ungapped": "NM_001306677.4/1/1103",
+      "gapped": "NM_001306677.4/1/1103",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "T18D3.1",
+      "id": "WBGene00011820",
+      "exact": "NM_077687.7/21/1220",
+      "ungapped": "NM_077687.7/21/1220",
+      "gapped": "NM_077687.7/21/1220",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F28H1.4",
+      "id": "WBGene00017909",
+      "exact": "NM_001026255.3/1/601",
+      "ungapped": "NM_001026255.3/1/601",
+      "gapped": "NM_001026255.3/1/601",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "ugtp-1",
+      "id": "WBGene00022721",
+      "exact": "NM_066529.8/1/1200",
+      "ungapped": "NM_066529.8/1/1200",
+      "gapped": "NM_066529.8/1/1200",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "twf-2",
+      "id": "WBGene00018187",
+      "exact": "NM_001392908.1/1/1200",
+      "ungapped": "NM_001392908.1/1/1200",
+      "gapped": "NM_001392908.1/1/1200",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "sqv-4",
+      "id": "WBGene00005022",
+      "exact": "NM_073329.11/3/1202",
+      "ungapped": "NM_073329.11/3/1202",
+      "gapped": "NM_073329.11/3/1202",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "K02F6.8",
+      "id": "WBGene00019342",
+      "exact": "NM_061890.3/294/793",
+      "ungapped": "NM_061890.3/294/793",
+      "gapped": "NM_061890.3/294/793",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "T23F11.4",
+      "id": "WBGene00011956",
+      "exact": "NM_065551.5/1/1200",
+      "ungapped": "NM_065551.5/1/1200",
+      "gapped": "NM_065551.5/1/1200",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "pdpr-1",
+      "id": "WBGene00013718",
+      "exact": "NM_060329.5/19/1218",
+      "ungapped": "NM_060329.5/19/1218",
+      "gapped": "NM_060329.5/19/1218",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F07E5.5",
+      "id": "WBGene00017210",
+      "exact": "NM_061767.5/1/1200",
+      "ungapped": "NM_061767.5/1/1200",
+      "gapped": "NM_061767.5/1/1200",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "micu-1",
+      "id": "WBGene00013462",
+      "exact": "NM_001268794.3/461/1660",
+      "ungapped": "NM_001268794.3/461/1660",
+      "gapped": "NM_001268794.3/461/1660",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "rop-1",
+      "id": "WBGene00004405",
+      "exact": "NM_073237.9/9/1208",
+      "ungapped": "NM_073237.9/9/1208",
+      "gapped": "NM_073237.9/9/1208",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "W05B2.2",
+      "id": "WBGene00012271",
+      "exact": "NM_067005.4/115/1314",
+      "ungapped": "NM_067005.4/115/1314",
+      "gapped": "NM_067005.4/115/1314",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "srv-15",
+      "id": "WBGene00005726",
+      "exact": "NM_001307189.3/1/1020",
+      "ungapped": "NM_001307189.3/1/1020",
+      "gapped": "NM_001307189.3/1/1020",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "nhl-1",
+      "id": "WBGene00003597",
+      "exact": "NM_066627.7/99/1298",
+      "ungapped": "NM_066627.7/99/1298",
+      "gapped": "NM_066627.7/99/1298",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "xpo-3",
+      "id": "WBGene00002080",
+      "exact": "NM_001380346.1/1/1200",
+      "ungapped": "NM_001380346.1/1/1200",
+      "gapped": "NM_001380346.1/1/1200",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "C07H4.1",
+      "id": "WBGene00007421",
+      "exact": "NM_001306568.3/1/646",
+      "ungapped": "NM_001306568.3/1/646",
+      "gapped": "NM_001306568.3/1/646",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F54D12.8",
+      "id": "WBGene00018821",
+      "exact": "NM_001377696.1/1/1200",
+      "ungapped": "NM_001377696.1/1/1200",
+      "gapped": "NM_001377696.1/1/1200",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "fbxb-33",
+      "id": "WBGene00044314",
+      "exact": "NM_001027092.3/504/1003",
+      "ungapped": "NM_001027092.3/504/1003",
+      "gapped": "NM_001027092.3/504/1003",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "eat-5",
+      "id": "WBGene00001136",
+      "exact": "NM_059667.8/1/1011",
+      "ungapped": "NM_059667.8/1/1011",
+      "gapped": "NM_059667.8/1/1011",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "AH9.3",
+      "id": "WBGene00014999",
+      "exact": "NM_076015.8/1/955",
+      "ungapped": "NM_076015.8/1/955",
+      "gapped": "NM_076015.8/1/955",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "srh-204",
+      "id": "WBGene00005415",
+      "exact": "NM_071770.1/1/803",
+      "ungapped": "NM_071770.1/1/803",
+      "gapped": "NM_071770.1/1/803",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "trul-1",
+      "id": "WBGene00015194",
+      "exact": "NM_001383776.3/16/1215",
+      "ungapped": "NM_001383776.3/16/1215",
+      "gapped": "NM_001383776.3/16/1215",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "arg-1",
+      "id": "WBGene00000185",
+      "exact": "NM_001029444.1/1/1074",
+      "ungapped": "NM_001029444.1/1/1074",
+      "gapped": "NM_001029444.1/1/1074",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "rpoa-1",
+      "id": "WBGene00012999",
+      "exact": "NM_001027279.5/4071/5270",
+      "ungapped": "NM_001027279.5/4071/5270",
+      "gapped": "NM_001027279.5/4071/5270",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "ttyh-1",
+      "id": "WBGene00009632",
+      "exact": "NM_077502.8/40/1239",
+      "ungapped": "NM_077502.8/40/1239",
+      "gapped": "NM_077502.8/40/1239",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "sec-11",
+      "id": "WBGene00021844",
+      "exact": "NM_058691.7/1/651",
+      "ungapped": "NM_058691.7/1/651",
+      "gapped": "NM_058691.7/1/651",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "hgo-1",
+      "id": "WBGene00001843",
+      "exact": "NM_060032.8/58/1257",
+      "ungapped": "NM_060032.8/58/1257",
+      "gapped": "NM_060032.8/58/1257",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "clec-193",
+      "id": "WBGene00013774",
+      "exact": "NM_070590.3/298/797",
+      "ungapped": "NM_070590.3/298/797",
+      "gapped": "NM_070590.3/298/797",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F46F5.11",
+      "id": "WBGene00018502",
+      "exact": "NM_061416.3/1002/1745",
+      "ungapped": "NM_061416.3/1002/1573",
+      "gapped": "NM_061416.3/1002/1573",
+      "addedUngapped": 1,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F49F1.11",
+      "id": "WBGene00018651",
+      "exact": "NM_068091.5/44/548",
+      "ungapped": "NM_068091.5/1/500",
+      "gapped": "NM_068091.5/1/500",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "str-60",
+      "id": "WBGene00006124",
+      "exact": "NM_074574.1/1/1044",
+      "ungapped": "NM_074574.1/1/1044",
+      "gapped": "NM_074574.1/1/1044",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "rab-35",
+      "id": "WBGene00004284",
+      "exact": "NM_067053.7/1/672",
+      "ungapped": "NM_067053.7/1/672",
+      "gapped": "NM_067053.7/1/672",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "cdh-5",
+      "id": "WBGene00000397",
+      "exact": "NM_001356930.4/1/1200",
+      "ungapped": "NM_001356930.4/1/1200",
+      "gapped": "NM_001356930.4/1/1200",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "math-5",
+      "id": "WBGene00015834",
+      "exact": "NM_061707.1/193/735",
+      "ungapped": "NM_061707.1/221/735",
+      "gapped": "NM_061707.1/221/735",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "fbxa-25",
+      "id": "WBGene00022321",
+      "exact": "NM_001381729.2/226/888",
+      "ungapped": "NM_001381729.2/226/888",
+      "gapped": "NM_001381729.2/226/888",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "C36F7.5",
+      "id": "WBGene00007986",
+      "exact": "NM_060136.2/1/522",
+      "ungapped": "NM_060136.2/1/522",
+      "gapped": "NM_060136.2/1/522",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "K10C2.14",
+      "id": "WBGene00206388",
+      "exact": "NM_001270114.3/1/653",
+      "ungapped": "NM_001270114.3/1/653",
+      "gapped": "NM_001270114.3/1/653",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F28F8.9",
+      "id": "WBGene00044188",
+      "exact": "NM_001269748.3/1/502",
+      "ungapped": "NM_001269748.3/1/502",
+      "gapped": "NM_001269748.3/1/502",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "set-21",
+      "id": "WBGene00021282",
+      "exact": "NM_068154.7/1484/1983",
+      "ungapped": "NM_068154.7/1484/1983",
+      "gapped": "NM_068154.7/1484/1983",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F39C12.1",
+      "id": "WBGene00018193",
+      "exact": "NM_001373285.2/131/1330",
+      "ungapped": "NM_001373285.2/131/1330",
+      "gapped": "NM_001373285.2/131/1330",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "dbd-14",
+      "id": "WBGene00014178",
+      "exact": "NM_001268254.2/429/928",
+      "ungapped": "NM_001268254.2/429/928",
+      "gapped": "NM_001268254.2/429/928",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "grsp-4",
+      "id": "WBGene00017201",
+      "exact": "NM_072569.5/1/588",
+      "ungapped": "NM_072569.5/1/588",
+      "gapped": "NM_072569.5/1/588",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "zyg-1",
+      "id": "WBGene00006988",
+      "exact": "NM_062702.6/27/1226",
+      "ungapped": "NM_062702.6/27/1226",
+      "gapped": "NM_062702.6/27/1226",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "ZK354.7",
+      "id": "WBGene00022708",
+      "exact": "NM_068373.3/1/501",
+      "ungapped": "NM_068373.3/1/501",
+      "gapped": "NM_068373.3/1/501",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "grk-1",
+      "id": "WBGene00001708",
+      "exact": "NM_077275.9/629/1828",
+      "ungapped": "NM_077275.9/629/1828",
+      "gapped": "NM_077275.9/629/1828",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "tbb-6",
+      "id": "WBGene00006539",
+      "exact": "NM_073674.4/91/1290",
+      "ungapped": "NM_073674.4/91/1290",
+      "gapped": "NM_073674.4/91/1290",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "rpl-24",
+      "id": "WBGene00004436",
+      "exact": "NM_058998.8/1/544",
+      "ungapped": "NM_058998.8/1/544",
+      "gapped": "NM_058998.8/1/544",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "Y45G12C.10",
+      "id": "WBGene00021573",
+      "exact": "NM_071292.2/1/500",
+      "ungapped": "NM_071292.2/1/500",
+      "gapped": "NM_071292.2/1/500",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "dnbp-1",
+      "id": "WBGene00044989",
+      "exact": "NM_001083253.6/3553/4752",
+      "ungapped": "NM_001083253.6/3553/4752",
+      "gapped": "NM_001083253.6/3553/4752",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "igeg-2",
+      "id": "WBGene00009842",
+      "exact": "NM_077514.7/1/1106",
+      "ungapped": "NM_077514.7/1/1106",
+      "gapped": "NM_077514.7/1/1106",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F43C9.2",
+      "id": "WBGene00018376",
+      "exact": "NM_001361802.4/1/801",
+      "ungapped": "NM_001361802.4/1/801",
+      "gapped": "NM_001361802.4/1/801",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "D2005.4",
+      "id": "WBGene00008399",
+      "exact": "NM_059759.8/67/1266",
+      "ungapped": "NM_059759.8/67/1266",
+      "gapped": "NM_059759.8/67/1266",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "srh-227",
+      "id": "WBGene00005435",
+      "exact": "NM_070546.1/1/500",
+      "ungapped": "NM_070546.1/100/599",
+      "gapped": "NM_070546.1/100/599",
+      "addedUngapped": 1,
+      "addedGapped": 0
+    },
+    {
+      "gene": "ccep-97",
+      "id": "WBGene00019842",
+      "exact": "NM_071888.5/2/1201",
+      "ungapped": "NM_071888.5/2/1201",
+      "gapped": "NM_071888.5/2/1201",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    },
+    {
+      "gene": "F54C8.6",
+      "id": "WBGene00010039",
+      "exact": "NM_001268062.3/1/1200",
+      "ungapped": "NM_001268062.3/1/1200",
+      "gapped": "NM_001268062.3/1/1200",
+      "addedUngapped": 0,
+      "addedGapped": 0
+    }
+  ]
+}

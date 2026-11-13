@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Design and check C. elegans feeding RNAi inserts against the WormBase WS298 transcriptome.">
+  <meta name="color-scheme" content="light">
+  <title>RNAi Specificity Screen · C. elegans</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#workspace">Skip to the workspace</a>
+  <header class="topbar">
+    <div class="container navigation">
+      <a class="brand" href="./" aria-label="RNAi Screen home">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        RNAi Screen
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#workspace" class="nav-active">Workspace</a>
+        <a href="#methods">Methods</a>
+        <a href="#reference">Reference</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><em>C. elegans</em> · Feeding RNAi</p>
+        <h1 id="page-title">RNAi specificity <em>screen</em></h1>
+        <p>Find a fragment for your target gene or check an existing insert against the worm transcriptome.</p>
+      </div>
+      <div class="hero-reference">
+        <div class="hero-reference-title"><span class="dot"></span> Reference assembly</div>
+        <strong>WormBase WS298</strong>
+        <span class="hero-assembly">WBcel235 <span aria-hidden="true">/</span> Bristol N2</span>
+        <div class="sequence-band" aria-hidden="true">
+          <span style="--p:2%;--w:19%"></span><span style="--p:26%;--w:14%"></span>
+          <span style="--p:45%;--w:34%"></span><span style="--p:83%;--w:15%"></span>
+        </div>
+        <div class="hero-stats">
+          <div><b>56,468</b><span>RNA models</span></div>
+          <div><b>52.1 Mb</b><span>of RNA sequence</span></div>
+        </div>
+      </div>
+    </section>
+
+    <form id="workspace" class="workspace" novalidate>
+      <section class="card workspace-card" aria-labelledby="work-title">
+        <div class="card-heading">
+          <h2 id="work-title">Analysis workspace</h2>
+        </div>
+        <fieldset class="segments workflow-picker">
+          <legend class="sr-only">Workflow</legend>
+          <label><input type="radio" name="workflow" value="design" checked><span>Find a fragment</span></label>
+          <label><input type="radio" name="workflow" value="check"><span>Check an insert</span></label>
+        </fieldset>
+
+        <div id="insert-panel" class="field" hidden>
+          <label for="insert">Insert sequence</label>
+          <textarea id="insert" spellcheck="false" rows="5" placeholder="Paste a DNA or RNA sequence, or one FASTA entry"></textarea>
+          <div class="field-foot"><span id="insert-size">0 bases</span><button type="button" id="insert-example" class="text-button">Load ctl-2 example</button></div>
+        </div>
+
+        <div class="field">
+          <label for="gene">Target gene <span id="gene-optional" class="muted" hidden>(optional)</span></label>
+          <div class="combobox">
+            <input id="gene" type="text" role="combobox" aria-autocomplete="list" aria-controls="suggestions" aria-expanded="false" spellcheck="false" autocomplete="off" placeholder="Gene symbol, locus or WormBase ID">
+            <ul id="suggestions" role="listbox" aria-label="Matching genes" hidden></ul>
+          </div>
+          <div class="field-foot">
+            <span id="gene-meta">Examples</span>
+            <div id="gene-examples">
+              <button type="button" class="example" data-gene="ctl-2">ctl-2</button>
+              <button type="button" class="example" data-gene="kin-1">kin-1</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="isoforms">Isoform coverage</label>
+          <select id="isoforms" disabled><option value="">All annotated isoforms</option></select>
+          <p class="hint" id="isoform-hint">Select a gene to see its annotated transcripts.</p>
+        </div>
+
+        <div id="design-panel">
+          <fieldset class="field">
+            <legend>Template</legend>
+            <div class="template-options">
+              <label><input type="radio" name="template" value="cdna"><span><b>cDNA</b><small>Spliced transcript</small></span></label>
+              <label><input type="radio" name="template" value="genomic"><span><b>Genomic DNA</b><small>Exons and introns</small></span></label>
+            </div>
+          </fieldset>
+
+          <div class="field length-field">
+            <fieldset class="segments small-segments">
+              <legend>Insert length</legend>
+              <label><input type="radio" name="length-mode" value="range" checked><span>Range</span></label>
+              <label><input type="radio" name="length-mode" value="exact"><span>Exact length</span></label>
+            </fieldset>
+            <div id="length-range" class="length-controls">
+              <label>Minimum (bp)<input id="min" type="number" min="21" max="5000" value="500"></label>
+              <span aria-hidden="true">–</span>
+              <label>Maximum (bp)<input id="max" type="number" min="21" max="5000" value="1200"></label>
+            </div>
+            <div id="length-exact" class="length-controls" hidden>
+              <label>Length (bp)<input id="exact-length" type="number" min="21" max="5000" value="600"></label>
+            </div>
+          </div>
+        </div>
+        <div class="submit-row">
+          <button id="run" type="submit" class="primary">Find fragments <span aria-hidden="true">→</span></button>
+          <button id="cancel" type="button" class="secondary" hidden>Cancel</button>
+        </div>
+        <p class="error" id="error" role="alert" hidden></p>
+        <div class="progress-row" id="progress-row" hidden>
+          <p role="status" id="progress-label"></p>
+          <progress max="100" id="progress"></progress>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <section class="card settings-card" aria-labelledby="settings-title">
+          <div class="card-heading">
+            <h2 id="settings-title">Screen settings</h2>
+            <p>Exact 21-base matches are always checked.</p>
+          </div>
+          <fieldset class="difference-field">
+            <legend>Differences per 40 insert bases</legend>
+            <div class="segments difference-options">
+              <label><input type="radio" name="differences" value="off"><span>Off</span></label>
+              <label><input type="radio" name="differences" value="0"><span>0</span></label>
+              <label><input type="radio" name="differences" value="1"><span>1</span></label>
+              <label><input type="radio" name="differences" value="2" checked><span>2</span></label>
+              <label><input type="radio" name="differences" value="3"><span>3</span></label>
+            </div>
+            <p id="difference-hint" class="hint">At most 2 substitutions or indel bases per window.</p>
+          </fieldset>
+          <div class="switches">
+            <label class="switch-row"><span><b>Count insertions and deletions</b><small>Each inserted or deleted base counts as one difference.</small></span><input id="indels" type="checkbox" role="switch" checked></label>
+            <label class="switch-row"><span><b>Check upstream similarity</b><small>Report the distance to shared sequence 5′ of a mapped trigger.</small></span><input id="upstream" type="checkbox" role="switch" checked></label>
+          </div>
+        </section>
+        <section class="card local-card" aria-labelledby="local-title">
+          <div class="local-icon" aria-hidden="true">↳</div>
+          <div><h2 id="local-title">Runs in your browser</h2><p>Your sequence stays on this device. The first analysis loads about 14 MB of reference data.</p></div>
+        </section>
+      </aside>
+    </form>
+
+    <section id="results" class="results card" aria-labelledby="results-title">
+      <div class="results-heading">
+        <div><h2 id="results-title" tabindex="-1">Results</h2><p id="results-subtitle">Run an analysis to see fragment coverage and potential off-targets.</p></div>
+        <button id="download" type="button" class="secondary" hidden>Download results</button>
+      </div>
+      <div id="results-content"></div>
+    </section>
+
+    <section class="documentation">
+      <section class="card documentation-card" id="methods" aria-labelledby="methods-title">
+        <h2 id="methods-title">Methods</h2>
+        <details open>
+          <summary>Direct off-target screen</summary>
+          <p>Both insert orientations are screened for exact 21-base matches and, when enabled, 40-base windows within the selected edit limit. The default allows two differences. Counts refer to distinct insert window starts.</p>
+          <p>Read the published sequence-screening approaches. <a href="https://doi.org/10.1534/g3.114.013052">Thakur et al., 2014</a> · <a href="https://doi.org/10.1186/1471-2164-8-106">Rual et al., 2007</a></p>
+        </details>
+        <details>
+          <summary>Coverage, ranking and upstream similarity</summary>
+          <p>Coverage means a transcript has at least one exact 21-base match. The search prioritizes the requested isoform set, then minimizes flagged genes or sibling isoforms and matching window starts. For tied candidates it prefers a longer insert, more shared target windows, then more coding sequence where annotated.</p>
+          <p>Upstream distances are measured along the spliced transcript to the next exact target block. Treat them as evidence of sequence similarity. Knockdown and transitive silencing require experimental confirmation. <a href="https://pubmed.ncbi.nlm.nih.gov/12554873/">Alder et al., 2003</a></p>
+        </details>
+      </section>
+      <section class="card documentation-card" id="reference" aria-labelledby="reference-title">
+        <h2 id="reference-title">Reference</h2>
+        <dl class="reference-list">
+          <div><dt>Organism</dt><dd><em>C. elegans</em> Bristol N2</dd></div>
+          <div><dt>Assembly</dt><dd>WBcel235</dd></div>
+          <div><dt>Annotation</dt><dd>WormBase WS298 via RefSeq</dd></div>
+          <div><dt>Accession</dt><dd><a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000002985.6/">GCF_000002985.6</a></dd></div>
+        </dl>
+        <p><a href="./data/reference.json">Download reference manifest</a></p>
+      </section>
+    </section>
+  </main>
+  <footer class="container">RNAi Specificity Screen <span>·</span> <em>Caenorhabditis elegans</em></footer>
+  <noscript><p class="container">Enable JavaScript to use the RNAi sequence screen.</p></noscript>
+</body>
+</html>
